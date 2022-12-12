@@ -1,0 +1,20 @@
+img {
+  width: 240px;
+  height: 340px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1.75rem;
+  width: min(90%, 68.5rem);
+  margin-inline: auto;
+}
+
+figure h4 {
+  writing-mode: vertical-lr;
+  position: relative;
+  float: right;
+  margin-right:5px;
+}
