@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=5"
-    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Francisco Cruz" />
-
-    <link rel="icon" href="devchallenges.png" />
 
     <!--========== Stylesheet ==========-->
     <link rel="stylesheet" href="assets/stylesheet/global.css" />
@@ -20,7 +16,16 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <title>Devchallenges - My team page</title>
+
+    <!--========== Scrollreveal ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link
+      rel="shortcut icon"
+      href="assets/icons/devchallenges.png"
+      type="image/x-icon"
+    />
+    <title>My Team Page - devChallenges</title>
   </head>
   <body>
     <header>
@@ -28,7 +33,7 @@
       <div>
         <h2>Who we are</h2>
         <p>
-          We are team of creatively diverse. driven. innovative individuals
+          We are team of creatively diverse. driven.<br />innovative individuals
           working in various locations from the world.
         </p>
       </div>
@@ -80,7 +85,12 @@
       </div>
     </main>
     <footer>
-      <small> created by <strong>Francisco</strong> - devChallenges.io </small>
+      <p>created by Francisco - devChallenges.io</p>
     </footer>
+
+    <!--========== Scrollreveal Script ==========-->
+    <script>
+      ScrollReveal().reveal(".card", { interval: 16 });
+    </script>
   </body>
 </html>
